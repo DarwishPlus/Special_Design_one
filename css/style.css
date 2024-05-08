@@ -452,6 +452,12 @@ html {
   position: relative;
   overflow: hidden;
 }
+@media (max-width:575px){
+  .skills .skill-box .skill-progress {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
 .skills .skill-box .skill-progress span {
   position:absolute;
   height: 100%;
@@ -1043,8 +1049,9 @@ position او
   background-color: rgb(141, 141, 141);
   color: #eee;
   padding: 15px;
-  text-align: center;
-
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .footer i {
   color: white;
@@ -1076,6 +1083,22 @@ position او
 .footer .fa-whatsapp:hover {
   color: #25d366;
 }
+
+@media (max-width:767px){
+  .footer {
+    display: block;
+    text-align: center;
+    /* z-index: 999999; */
+  }
+  .footer .text {
+    margin-bottom: 10px;
+    /* display: block; */
+  }
+  .footer .rights {
+    margin-bottom: 10px;
+  }
+}
+
 /* <!-- Start Create arrow To Scroll To Page Up --> */
 .toTop {
   position: relative;
