@@ -919,7 +919,7 @@ position او
 /*-------------------------------------------- Start contact-us -------------------------------------------- */
 .contact-us {
   min-height: 600px;
-  background-image: url("imgs/contact_img/01.jpg");
+  background-image: url("../imgs/contact_img/01.jpg");
   background-size: cover;
   padding-top: 80px;
   padding-bottom: 80px;
