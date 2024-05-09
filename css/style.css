@@ -918,7 +918,6 @@ position او
 
 /*-------------------------------------------- Start contact-us -------------------------------------------- */
 .contact-us {
-  min-height: 600px;
   background-image: url("../imgs/contact_img/contact_us.jpg");
   background-size: cover;
   padding-top: 80px;
