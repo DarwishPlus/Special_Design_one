@@ -798,7 +798,7 @@ position او
   transition: 0.5s;
 }
 .features .feat-box:hover h4::before  {
-  width: 80px;
+  width: 100px;
 }
 .features .feat-box p {
   width: 80%;
